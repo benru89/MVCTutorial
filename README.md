@@ -33,5 +33,18 @@ Hemos escrito tests unitarios para todas las clases que hemos implementado.
 
 No hemos escrito ni una sola linea de código de Spring. Éste es un ejemplo de lo no-intrusivo que es realmente Spring Framework. Uno de sus propósitos principales es permitir a los programadores centrarse en la parte más importante de todas: modelar e implementar requerimientos de negocio. Otro de sus propósitos es hacer seguir las mejores prácticas de programación de una manera sencilla, como por ejemplo implementar servicios usando interfaces y usar tests unitarios más allá de las obligaciones prágmaticas de un proyecto dado.
 
+CAPITULO 4:
+
+Hemos renombrado nuestro controlador a InventoryController y le hemos dado una referencia a ProductManager por lo que ahora podemos recuperar una lista de productos para mostrar.
+
+Entonces hemos definido algunos datos de prueba para rellenar objetos de negocio.
+
+A continuación hemos modificado la página JSP para usar una ubicación de mensajes y hemos añadido un loop forEach para mostrar una lista dinámica de productos.
+
+Después hemos creado un formulario para disponer de la capacidad de incrementar los precios.
+
+Finalmente hemos creado un controlador de formulario que valida los datos introducidos, hemos desplegado y probado las nuevas características
+
+
 
 
