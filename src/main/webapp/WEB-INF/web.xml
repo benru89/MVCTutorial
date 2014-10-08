@@ -14,7 +14,7 @@
 	</listener>
 
 
-	<display-name>SpringApp</display-name>
+	<display-name>Spring_MVC_ex1</display-name>
 
 	<servlet>
 		<servlet-name>Spring_MVC_ex1</servlet-name>
