@@ -25,5 +25,13 @@ HelloControllerTests ha sido actualizado repetidamente para hacer al controlador
 
 El controlador de página, HelloController, ahora hace referencia a la vista por su nombre lógico mediante el uso del 'InternalResourceViewResolver' definido en 'app-config.xml'.
 
-A continuación puedes ver una captura de pantalla que muestra el aspecto que debería tener la estructura de directorios del proyecto después de seguir todas las instrucciones anteriores.
+CAPITULO 3:
+
+Hemos implementado el objeto de dominio Product, la interface de servicio ProductManager y la clase concreta SimpleProductManager, todos como POJOs.
+
+Hemos escrito tests unitarios para todas las clases que hemos implementado.
+
+No hemos escrito ni una sola linea de código de Spring. Éste es un ejemplo de lo no-intrusivo que es realmente Spring Framework. Uno de sus propósitos principales es permitir a los programadores centrarse en la parte más importante de todas: modelar e implementar requerimientos de negocio. Otro de sus propósitos es hacer seguir las mejores prácticas de programación de una manera sencilla, como por ejemplo implementar servicios usando interfaces y usar tests unitarios más allá de las obligaciones prágmaticas de un proyecto dado.
+
+
 
