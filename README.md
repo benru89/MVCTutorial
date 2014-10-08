@@ -55,7 +55,15 @@ Hemos creado una clase DAO que manejará el trabajo de persistencia mediante JPA 
 
 Finalmente hemos creado tests de integración para comprobar su funcionamiento.
 
+CAPITULO 6:
 
+Hemos completado las tres capas de la aplicación -- la capa web, la capa de servicio y la capa de persistencia. En esta última parte hemos reconfigurado la aplicación.
+
+Primero hemos modificado la capa de servicio para usar la interface ProductDAO.
+
+Después hemos tenido que arreglar algunos fallos en los tests de la capa de servicio y la capa web.
+
+A continuación, hemos introducido un nuevo applicationContext para separar la configuración de la capa de servicio y de la capa de persistencia de la configuración de la capa web.
 
 
 
