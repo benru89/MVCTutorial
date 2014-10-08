@@ -45,6 +45,17 @@ Después hemos creado un formulario para disponer de la capacidad de incrementar 
 
 Finalmente hemos creado un controlador de formulario que valida los datos introducidos, hemos desplegado y probado las nuevas características
 
+CAPITULO 5:
+
+Ya hemos completado la capa de persistencia y en la próxima parte vamos a integrarla con nuestra aplicación web. Pero primero, resumamos rápidamente todo lo que hemos hecho en esta parte.
+
+Primero hemos configurado nuestra base de datos y ejecutado las sentencias SQL para crear una tabla en la base de datos y cargar algunos datos de prueba.
+
+Hemos creado una clase DAO que manejará el trabajo de persistencia mediante JPA usando la clase Product.
+
+Finalmente hemos creado tests de integración para comprobar su funcionamiento.
+
+
 
 
 
