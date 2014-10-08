@@ -25,5 +25,4 @@ HelloControllerTests ha sido actualizado repetidamente para hacer al controlador
 
 El controlador de página, HelloController, ahora hace referencia a la vista por su nombre lógico mediante el uso del 'InternalResourceViewResolver' definido en 'app-config.xml'.
 
-A continuación puedes ver una captura de pantalla que muestra el aspecto que debería tener la estructura de directorios del proyecto después de seguir todas las instrucciones anteriores.
 
